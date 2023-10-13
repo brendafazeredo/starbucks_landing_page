@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset= "UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Starbucks Website Landing Page</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class= "circle"></div>
+        <header>
+            <a href= "#"><img src= "/assets/logo.png" class= "logo"></a>
+            <ul>
+                <li><a href= "#">Home</a></li>
+                <li><a href= "#">Menu</a></li>
+                <li><a href= "#">New</a></li>
+                <li><a href= "#">Contact</a></li>
+            </ul>
+        </header>
+        <div class= "content">
+            <div class= "textBox">
+                <h2>It's not just Coffee<br>It's <span> Starbucks</span></h2>
+                <p>Step into Starbucks, where the rich aroma of freshly brewed coffee welcomes you. 
+                    Whether it's a morning pick-me-up or a cozy evening treat, our diverse menu of handcrafted beverages 
+                    and delicious snacks promises to elevate your coffee experience, one cup at a time.</p>
+                <a href= "#">Learn more</a>
+            </div>
+            <div class= "imgBox">
+                <img src= "/assets/img1.png" class= "starbucks">
+            </div>
+        </div>
+        <ul class= "thumb">
+            <li><img src= "/assets/thumb1.png" onclick= "imgSlider('/assets/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src= "/assets/thumb2.png" onclick= "imgSlider('/assets/img2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src= "/assets/thumb3.png" onclick= "imgSlider('/assets/img3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class= "sci">
+            <li><a href="https://www.github.com/brendafazeredo/" target="_blank"><img src= "/assets/github.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/brendafazeredo/" target="_blank"><img src= "/assets/linkedin.png"></a></li>
+            <li><a href="https://www.instagram.com/brendafazeredo/" target="_blank"><img src= "/assets/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script src= "script.js"></script>
+</body>
+</html>
