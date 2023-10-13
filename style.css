@@ -101,7 +101,7 @@ header ul li a {
     display: inline-block;
     margin: 0 20px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 .thumb li:hover {
     transform: translateY(-15px);
