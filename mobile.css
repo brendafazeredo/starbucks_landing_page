@@ -20,14 +20,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 header .logo {
     position: relative;
     max-width: 80px;
+    height: 80px;
+    width: 80px;
+
 }
 header ul {
     position: relative;
@@ -56,7 +59,7 @@ header ul li a {
 }
 .content .textBox h2 {
     color: #333;
-    font-size: 4em;
+    font-size: 30px;
     line-height: 1.4em;
     font-weight: 500;
 }
@@ -92,7 +95,7 @@ header ul li a {
 .thumb {
     position: absolute;
     left: 50%;
-    bottom: 20px;
+    margin-top: 800px;
     transform: translateX(-50%);
     display: flex;
 }
@@ -109,31 +112,19 @@ header ul li a {
 .thumb li img {
     max-width: 60px;
 }
-.sci {
-    position: absolute;
-    top: 50%;
-    right: 30px;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.sci li {
-    list-style: none;
-}
-.sci li a {
-    display: inline-block;
-    margin: 5px 0;
-    transform: scale(0.8);
-    filter: invert(1);
-}
 .circle {
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
     width: 100%;
     height: 100%;
     background: #017143;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(350px at right 400px);
 }
+
+@media (max-width: 768px) {
+    .sci {
+        display: none;
+    }
+}
+
